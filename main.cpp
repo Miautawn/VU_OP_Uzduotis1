@@ -6,7 +6,7 @@ using std::cin;
 using std::endl;
 using std::string;
 
-//
+//function that determines the greeting depending on the name
 string greeting_check(string name)
 {
   return (name[name.length() - 1] == 'a') ? "Sveika, " : "Sveikas, ";
